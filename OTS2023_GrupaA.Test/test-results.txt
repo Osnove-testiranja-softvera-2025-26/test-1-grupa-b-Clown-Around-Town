@@ -1,0 +1,13 @@
+Constraints Warning: Restrictive constraints. Output will not contain following values: 
+  grade: average
+gold	hiddenGold	canUncover	grade
+10	5	true	bad
+9	6	false	bad
+16	5	false	good
+15	5	true	bad
+10	6	false	bad
+15	6	false	bad
+16	5	true	good
+16	6	false	good
+9	5	true	bad
+9	6	true	bad

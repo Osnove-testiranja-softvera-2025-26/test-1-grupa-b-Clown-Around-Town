@@ -1,0 +1,14 @@
+#############################################################
+# Paste test factors here.
+# Check the documents for more details.
+# https://github.com/Microsoft/pict/blob/master/doc/pict.md
+#############################################################
+
+gold: 9, 10, 15, 16
+hiddenGold: 5, 6
+canUncover: true, false
+grade: good, bad, average
+
+
+if ([gold] >= 10 AND [canUncover] = "true") AND [hiddenGold] >= 6 then [grade] = "average";
+if [gold] > 15 then [grade] = "good" else [grade] = "bad";
